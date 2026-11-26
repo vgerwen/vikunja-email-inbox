@@ -4,7 +4,8 @@ node_modules/
 # Cloudflare Wrangler lokale cache en state
 .wrangler/
 
-# Lokale omgevingsvariabelen / secrets
+# Privé-configuratie en lokale secrets
+wrangler.toml
 .dev.vars
 .env
 .env.*
