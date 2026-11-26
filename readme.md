@@ -21,7 +21,7 @@ A lightweight Cloudflare Email Routing Worker that converts incoming emails into
 ### 1. Clone and install dependencies
 
 ```bash
-git clone [https://github.com/](https://github.com/)/vgerwen/vikunja-email-inbox.git
+git clone [https://github.com/](https://github.com/vgerwen/vikunja-email-inbox.git)
 cd vikunja-email-inbox
 npm install
 ```
@@ -37,7 +37,7 @@ Edit wrangler.toml:
 
 - VIKUNJA_URL: Base URL of your Vikunja instance (e.g. https://todo.example.com)
 
-- VIKUNJA_INBOX_PROJECT_ID: Numeric ID of the target Vikunja project (e.g. "1")
+- VIKUNJA_INBOX_PROJECT_ID: Numeric ID of the target Vikunja project (e.g. "1") ( This ID is shown in the url if you select the INBOX)
 
 - ALLOWED_SENDERS: Comma-separated list of authorized email addresses
 
