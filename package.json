@@ -1,0 +1,10 @@
+{
+  "name": "vikunja-email-inbox",
+  "private": true,
+  "dependencies": {
+    "postal-mime": "^2.2.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

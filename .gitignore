@@ -1,0 +1,15 @@
+# Node.js dependencies
+node_modules/
+
+# Cloudflare Wrangler lokale cache en state
+.wrangler/
+
+# Lokale omgevingsvariabelen / secrets
+.dev.vars
+.env
+.env.*
+
+# Logs en OS-bestanden
+npm-debug.log*
+.DS_Store
+Thumbs.db
